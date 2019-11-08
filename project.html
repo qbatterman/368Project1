@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Black Jack</title>
+  </head>
+  
+  <body>
+  <br>
+	<H1> BLACKJACK</H1>
+	<button type='button' id = "start" onclick = "start()">Start</button><br><br>
+	<input type = "text" id = "totals" name = "totals" value = "games won: 0 ... games lost: 0" disabled size = "30"><br><br>
+    <img id = "player1" src="Gray_back.jpg" height="250" width="250">
+	<img id = "player2" src="Gray_back.jpg" height="250" width="250">
+	
+	<H4> Your Score / Computer Score</H4>
+	<input type = "text" id = "playerScore" name = "playerScore" value = "0" disabled>
+	<input type = "text" id = "computerScore" name = "computerScore" value = "0" disabled>
+	<br><br>
+	
+    <button type='button' id = "hit" onclick = "hit()" disabled = true>Hit</button>
+    <button type='button' id = "stay" onclick = "stay()" disabled = true>Stay</button>
+	<script src="Project.js"></script>
+  </body>
+</html>
